@@ -225,3 +225,6 @@
   (load custom-file))
 
 (message "\n\n Pack loading completed. Your Emacs is Live...\n\n")
+
+;; Sets the font to lucid
+(set-face-attribute 'default nil :font "-outline-Lucida Console-normal-normal-normal-mono-12-*-*-*-c-*-iso8859-1")
